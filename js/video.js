@@ -38,7 +38,7 @@ function get_vid(weather,status,humidity,wind_chill){
 	if (feel != null) {
 			$.ajax({
 				type: "POST",
-				url: "http://localhost/exp/mood_music/lib/get_vid.php",
+				url: "lib/get_vid.php",
 				data: {
 					mood : feel
 				},

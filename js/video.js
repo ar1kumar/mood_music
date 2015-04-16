@@ -45,7 +45,7 @@ function get_vid(weather,status,humidity,wind_chill){
 				success: function(response){
 				//do some stuff
 				console.log('returns '+response);
-				$('#video').attr('src',"//www.youtube.com/embed/"+response+"?html5=1");
+				$('#video').attr('src',"//www.youtube.com/embed/"+response+"?html5=1&autoplay=1");
 			}
 		});
     }
